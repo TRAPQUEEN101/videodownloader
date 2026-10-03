@@ -20,7 +20,7 @@
   .download:hover { background: #30363d; border-color: #8b949e; }
   .download strong { display: block; font-size: 16px; margin-bottom: 4px; }
   .download span { color: #8b949e; font-size: 13px; }
-  .note { margin-top: 24px; padding: 16px;
+  .note { margin-top: 16px; padding: 16px;
           background: #161b22; border-left: 3px solid #2f81f7;
           border-radius: 6px; font-size: 14px; color: #8b949e;
           line-height: 1.6; }
@@ -33,17 +33,21 @@
     <h1>Video Downloader</h1>
     <p class="tag">Download videos fast. Free while in beta.</p>
 
+    <a class="download" href="https://github.com/TRAPQUEEN101/videodownloader/releases/download/v0.1/VideoDownloader.exe" download>
+      <strong>Windows (x64)</strong>
+      <span>Single EXE &middot; no install needed &middot; ~80 MB</span>
+    </a>
+
     <a class="download" href="https://github.com/TRAPQUEEN101/videodownloader/releases/download/v0.1/VideoDownloader" download>
       <strong>Linux (x86_64)</strong>
-      <span>Single binary · no install needed · ~61 MB</span>
+      <span>Single binary &middot; no install needed &middot; ~61 MB</span>
     </a>
 
     <div class="note">
-      <strong>How to run:</strong><br>
-      1. Download the file<br>
-      2. Open a terminal in your Downloads folder<br>
-      3. Run <code>chmod +x VideoDownloader</code><br>
-      4. Run <code>./VideoDownloader</code>
+      <strong>Windows:</strong> first run may show a SmartScreen warning &mdash;
+      click <em>More info</em> &rarr; <em>Run anyway</em>.<br><br>
+      <strong>Linux:</strong> in your Downloads folder run
+      <code>chmod +x VideoDownloader</code> then <code>./VideoDownloader</code>.
     </div>
   </div>
 </body>
