@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video Downloader</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif;
+         background: #0d1117; color: #e6edf3; margin: 0;
+         min-height: 100vh; display: flex; align-items: center;
+         justify-content: center; padding: 24px; }
+  .card { max-width: 560px; width: 100%; }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  .tag { color: #8b949e; margin-bottom: 32px; }
+  .download { display: block; padding: 18px 24px; margin-bottom: 12px;
+              background: #21262d; border: 1px solid #30363d;
+              border-radius: 10px; color: #e6edf3;
+              text-decoration: none; transition: all .15s; }
+  .download:hover { background: #30363d; border-color: #8b949e; }
+  .download strong { display: block; font-size: 16px; margin-bottom: 4px; }
+  .download span { color: #8b949e; font-size: 13px; }
+  .note { margin-top: 24px; padding: 16px;
+          background: #161b22; border-left: 3px solid #2f81f7;
+          border-radius: 6px; font-size: 14px; color: #8b949e;
+          line-height: 1.6; }
+  code { background: #21262d; padding: 2px 6px;
+         border-radius: 4px; font-size: 13px; color: #79c0ff; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Video Downloader</h1>
+    <p class="tag">Download videos fast. Free while in beta.</p>
+
+    <a class="download" href="dist/VideoDownloader" download>
+      <strong>Linux (x86_64)</strong>
+      <span>Single binary · no install needed · ~40 MB</span>
+    </a>
+
+    <div class="note">
+      <strong>How to run:</strong><br>
+      1. Download the file<br>
+      2. Open a terminal in your Downloads folder<br>
+      3. Run <code>chmod +x VideoDownloader</code><br>
+      4. Run <code>./VideoDownloader</code>
+    </div>
+  </div>
+</body>
+</html>
